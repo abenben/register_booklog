@@ -46,14 +46,14 @@ pyenv rehash
 
 ```shell
 cd （ソースコードを格納したい任意の場所）
-https://github.com/abenben/register_booklog.git
+git clone https://github.com/abenben/register_booklog.git
 ```
 
 ### Pythonパッケージのインストール
 
 ```shell
 cd register_booklog
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## 2.環境設定
