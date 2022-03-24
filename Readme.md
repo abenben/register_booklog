@@ -56,9 +56,9 @@ cd register_booklog
 pip3 install -r requirements.txt
 ```
 
-## 2.環境設定
+## 2.環境変数の設定
 
-ご自身の
+自分のブクログのIDとパスワードを環境変数に設定します。
 
 ```shell
 export BOOKLOG_ID=(ブックログのID)
@@ -90,10 +90,16 @@ kindle版などの区別ができないので確実に登録したい場合はIS
 
 ### 3.2.スクリプトを実行する
 
---booklistパラメータには、上記で作成した本のリストのファイル名を指定してください。
+booklistパラメータに、上記で作成した本リストのファイル名を指定してください。
 
 ```shell
 python3 register_booklog.py --booklist=input/books1.txt
+```
+
+パラメータの詳細はヘルプからも確認できます。
+
+```shell
+python3 register_booklog.py --help
 ```
 
 # License
